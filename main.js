@@ -11,6 +11,7 @@ class BasicWorldDemo {
       this._threejs = new THREE.WebGLRenderer({
         antialias: true,
       });
+      
       this._threejs.shadowMap.enabled = true;
       this._threejs.shadowMap.type = THREE.PCFSoftShadowMap;
       this._threejs.setPixelRatio(window.devicePixelRatio);
